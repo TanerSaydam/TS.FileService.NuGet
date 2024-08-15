@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Authors>Taner Saydam</Authors>
+    <Company>Taner Saydam</Company>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>8.0.3</Version>
+    <PackageIcon>icon.jpg</PackageIcon>
+    <Title>File save and delete methods for server and db</Title>
+    <Description>With this package you can save, delete or convert your files.</Description>
+    <Copyright>Copyright 2024</Copyright>
+    <PackageProjectUrl>https://www.tanersaydam.net</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/TanerSaydam/TS.FileService.NuGet.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>file</PackageTags>
+    <PackageReleaseNotes>Fixed some issues</PackageReleaseNotes>
+    <PackageId>TS.FileService</PackageId>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="icon.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
